@@ -68,8 +68,9 @@ const Dashboard = () => {
               gridTemplateAreas: gridTemplateLargeScreens,
             }
           : {
-              gridAutoColumns: "1fr",
+              gridTemplateColumns: "1fr",
               gridAutoRows: "80px",
+              gap: "50px",
               gridTemplateAreas: gridTemplateSmallScreens,
             }
       }
